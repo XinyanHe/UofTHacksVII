@@ -3,30 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="110dp"
-        android:fontFamily="cursive"
-        android:text="ToDoList"
-        android:textColor="#000000"
-        android:textSize="70sp"
-        android:textStyle="normal" />
+    tools:context=".MainInterface">
 
     <Button
-        android:id="@+id/begin"
+        android:id="@+id/add"
         style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
-        android:layout_width="220dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="570dp"
         android:fontFamily="cursive"
         android:onClick="onClick"
-        android:text="Begin"
+        android:text="add"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#3F51B5"
         android:textSize="45sp"
