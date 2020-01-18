@@ -15,7 +15,7 @@ public class MainInterface extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        Intent menuIntent = new Intent(getApplicationContext(), MainInterface.class);
+        Intent menuIntent = new Intent(getApplicationContext(), Pop.class);
         startActivity(menuIntent);
     }
 }
